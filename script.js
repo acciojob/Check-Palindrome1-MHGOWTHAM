@@ -2,6 +2,9 @@
 
 function palindrome(str){
 var rev=str.reverse();
-	return rev===str?true:false;
+	if(rev===str)
+		return true;
+	else
+		return false;
 }
 module.exports = palindrome
